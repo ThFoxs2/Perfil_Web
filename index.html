@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Neymar Jr</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #001a33, #003366, #0047ab); 
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex; 
+        }
+
+        .lateral {
+            width: 200px; 
+            height: 100vh; 
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('img/lateral.jpg');
+            background-size: cover; 
+            background-position: center; 
+            position: fixed; 
+            top: 0;
+            left: 0;
+        }
+
+        .lateral-direita {
+            width: 200px; 
+            height: 100vh; 
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('img/lateralDireita.jpg');
+            background-size: cover; 
+            background-position: center;
+            position: fixed; 
+            top: 0;
+            right: 0;
+        }
+
+        .conteudo {
+            margin-left: 220px;
+            margin-right: 220px; 
+            padding: 20px;
+            width: calc(100% - 440px); 
+        }
+
+        .tt {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .li {
+            list-style-type: square;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            margin: 10px 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .botao:hover {
+            background-color: #005bb5;
+        }
+
+        .img {
+            border: white 2px solid;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            max-width: 100%;
+            height: 300px;
+        }
+
+        .section {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="lateral"></div> 
+    <div class="conteudo">
+        <header>
+            <h1 class="tt">Neymar Jr</h1>
+        </header>
+        <main>
+            <p class="section">Neymar Jr. é um famoso jogador de futebol brasileiro, nascido em 5 de fevereiro de 1992. Começou sua carreira no Santos FC e, em 2013, se transferiu para o Barcelona, onde brilhou ao lado de Messi e Suárez. Em 2017, foi para o Paris Saint-Germain (PSG) por uma transferência recorde. Neymar também é destaque na seleção brasileira, conquistando títulos como a Copa das Confederações e a medalha de ouro olímpica. Ele é conhecido por sua habilidade, dribles e velocidade, sendo um dos maiores jogadores da atualidade.</p>
+            
+            
+            <img src="img/ney.jpg" alt="Neymar" class="img"> 
+
+            <h3 class="section">Estatísticas</h3>
+            <p class="section">Ao todo, em sua carreira, Neymar acumula:</p>
+            <ul class="li">
+                <li>708 jogos;</li>
+                <li>436 gols;</li>
+                <li>249 assistências;</li>
+                <li>66 prêmios individuais;</li>
+                <li>30 títulos oficiais;</li>
+                <li>21 hat-tricks;</li>
+                <li>24 gols de falta;</li>
+            </ul>
+
+            <h2 class="tt">Realizações</h2>
+            <ul class="li">
+                <li>Maior artilheiro da Seleção Brasileira: 79 gols.</li>
+                <li>Jogador brasileiro com mais gols e assistências na UEFA Champions League: 41 gols e 30 assistências.</li>
+                <li>Liga dos Campeões da UEFA: 2014–15 (FC Barcelona)</li>
+                <li>Prémio FIFA Ferenc Puskás: 2011</li>
+                <li>Prêmio Rei da América - El País: 2011, 2012</li>
+            </ul>
+
+            <section class="section">
+                <h3>Redes Sociais</h3>
+                <a href="https://www.instagram.com/neymarjr/" target="_blank" class="botao">Instagram</a>
+                <a href="https://twitter.com/neymarjr" target="_blank" class="botao">Twitter</a>
+                <a href="https://www.facebook.com/neymarjr" target="_blank" class="botao">Facebook</a>
+            </section>
+        </main>
+    </div>
+    <div class="lateral-direita"></div> 
+</body>
+</html>
